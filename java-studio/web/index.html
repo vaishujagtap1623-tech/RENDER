@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <div class="logo">
+        ☕ <span>Java Studio</span>
+    </div>
+
+    <button id="themeBtn">🌙</button>
+</header>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <h3>PROJECTS</h3>
+
+        <button class="project active">
+            📁 Java Examples
+        </button>
+
+        <button class="project">
+            📄 Main.java
+        </button>
+
+        <button class="project">
+            📄 HelloWorld.java
+        </button>
+
+        <button class="project">
+            📄 Student.java
+        </button>
+
+        <div class="side-bottom">
+            <button>⚙ Settings</button>
+            <button>👤 Profile</button>
+        </div>
+    </aside>
+
+
+    <main class="workspace">
+
+        <div class="welcome">
+            <h1>Code Java. Learn Anywhere.</h1>
+            <p>Build • Run • Learn • Succeed</p>
+        </div>
+
+        <div class="toolbar">
+
+            <button id="runBtn" class="run">
+                ▶ Run
+            </button>
+
+            <button id="saveBtn">
+                💾 Save
+            </button>
+
+            <button id="clearBtn">
+                🗑 Clear
+            </button>
+
+        </div>
+
+
+        <div class="editor-box">
+
+            <div class="editor-title">
+                <span>📄 Main.java</span>
+                <span id="saveStatus"></span>
+            </div>
+
+            <textarea id="codeEditor">public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello from Java Studio!");
+
+    }
+}</textarea>
+
+        </div>
+
+
+        <div class="console-box">
+
+            <div class="console-title">
+                <span>Console</span>
+                <span id="status">Ready</span>
+            </div>
+
+            <pre id="console">Click ▶ Run to execute your Java program.</pre>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+<div class="assistant">
+
+    <div class="assistant-icon">
+        🤖
+    </div>
+
+    <div>
+        <strong>Java Assistant</strong>
+        <p>Ask me anything about Java</p>
+    </div>
+
+    <button id="assistantBtn">💬</button>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
