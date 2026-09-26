@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp">
+    <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Java Studio" android:textSize="30sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Learn • Code • Run • Build • Succeed" android:layout_marginTop="6dp" />
+    <Button android:id="@+id/healthButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Test Backend Connection" android:layout_marginTop="24dp" />
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Backend: not tested" android:layout_marginTop="16dp" />
+</LinearLayout>
